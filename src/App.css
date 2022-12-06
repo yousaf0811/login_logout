@@ -40,3 +40,8 @@ button{
   color: rgb(48, 44, 44);
   text-decoration: underline;
 }
+.tb{
+  background-color: antiquewhite;
+  border: 4px solid burlywood;
+  border-radius: 10px;
+}
