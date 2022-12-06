@@ -1,0 +1,28 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Harry Potter",
+      "email": "yousaf@gmail.com",
+      "password": "1122",
+      "DOB": "11-1-2000",
+      "gender": "male"
+    },
+    {
+      "id": "3",
+      "name": "ramzan",
+      "email": "quranclass6677@gmail.com",
+      "pass": "1122",
+      "DOB": "2022-12-28",
+      "gender": "m"
+    },
+    {
+      "id": "4",
+      "name": "hell1",
+      "email": "yousaf0811@gmail.com",
+      "pass": "1122",
+      "DOB": "2022-12-20",
+      "gender": "female"
+    }
+  ]
+}
