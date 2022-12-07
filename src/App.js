@@ -11,6 +11,8 @@ import Home from './components/home';
 import Details from './components/details';
 import Auth from './components/Auth';
 
+import Edit from './components/Edit';
+
 function App() {
   return (
     <div className="App">
@@ -19,7 +21,8 @@ function App() {
             <Route path="/" element={<Login/> } /> 
             <Route path="/register" element={<Register/> } />    
             <Route path="/home" element={<Auth><Home/></Auth>} />
-            <Route path="/details" element={<Auth><Details/></Auth> } />  
+            <Route path="/details" element={<Auth><Details/></Auth> } />
+            <Route path="/edit" element={<Auth><Edit/></Auth> } />  
         </Routes>
       </BrowserRouter>
     </div>

@@ -16,7 +16,7 @@ const Login = ()=>{
         const { email, password } = document.forms[0];
         const userData = database.find((user) => user.email === email.value);
         if (userData) {
-          if (userData.password !== password.value) {
+          if (userData.password === password.value) {
             alert("Invalid password");
           } else {
             localStorage.setItem("name", JSON.stringify(userData.name));

@@ -14,7 +14,7 @@ function Auth(props) {
 
   return <>{isLogin ? props.children : (
 
-<h1>Please Login To Continue : <Link to="/login">Login here</Link> </h1>
+<h1>Please Login To Continue : <Link to="/">Login here</Link> </h1>
 
 
   ) }</>;

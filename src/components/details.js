@@ -12,6 +12,14 @@ const Details = ()=>{
         const [post, setPost] = useState([]);
         const navigate = useNavigate();
     
+        const handleLogOut = ()=>{
+            localStorage.clear();
+            window.location.reload();
+        }
+        const handleAddNew = ()=>{
+            localStorage.clear();
+            navigate('/register')
+        }
         useEffect(() => {
             const loadpost = async () => {
                 setLoading(true);
@@ -44,6 +52,8 @@ const Details = ()=>{
                             </tr>))} 
             </tbody>
         </table>
+        <button onClick={handleLogOut} >Logout</button>
+        <button onClick={handleAddNew} >Add New</button>
         </div>
     </div>
     )
