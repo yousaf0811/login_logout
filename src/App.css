@@ -4,7 +4,7 @@
   min-height: 100vh;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(to right, rgb(155, 63, 143),rgb(161, 75, 86) )
+  background: linear-gradient(to right, rgb(192, 18, 169),rgb(218, 187, 10) )
 }
 .form, .register-form, .login-form{
   display: flex;

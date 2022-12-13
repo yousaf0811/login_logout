@@ -1,7 +1,7 @@
 {
   "users": [
     {
-      "id": "1",
+      "id": 1,
       "name": "yousaf",
       "email": "yousaf@gmail.com",
       "pass": "1122",
@@ -9,28 +9,12 @@
       "gender": "m"
     },
     {
-      "id": "2",
-      "name": "ramzan",
-      "email": "ramzan@gmail.com",
-      "pass": "1122",
-      "DOB": "2022-12-20",
-      "gender": "m"
-    },
-    {
-      "id": "3",
       "name": "bano",
-      "email": "bano@gmail.com",
-      "pass": "1122",
+      "email": "quranclass6677@gmail.com",
+      "pass": "1112233",
       "DOB": "2022-12-21",
-      "gender": "m"
-    },
-    {
-      "id": "4",
-      "name": "hell",
-      "email": "hell@gmail.com",
-      "pass": "1122",
-      "DOB": "2022-12-22",
-      "gender": "female"
+      "gender": "m",
+      "id": 2
     }
   ]
 }

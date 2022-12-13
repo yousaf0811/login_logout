@@ -2,7 +2,8 @@ import React, { useEffect } from "react";
 
 import { useState } from "react";
 
-import {useNavigate} from "react-router-dom" 
+import {useNavigate} from "react-router-dom"
+
 const Login = ()=>{
     const [database, setDatabase] = useState([]);
     const navigate = useNavigate();
@@ -15,6 +16,7 @@ const Login = ()=>{
         event.preventDefault();
         const { email, password } = document.forms[0];
         const userData = database.find((user) => user.email === email.value);
+        // console.log("1223", userData )
         if (userData) {
           if (userData.password === password.value) {
             alert("Invalid password");
@@ -52,7 +54,8 @@ const Login = ()=>{
             <input type='email' placeholder="Email" id="email" name="email" ></input>
             <label for="password" >Enter the Password : </label>
             <input type='password' placeholder="********" id="password" name="password" ></input>
-            <button type="submit" >Log In</button>
+            <button
+            class="btn btn-outline-success" type="submit" >Log In</button>
         </form>
         <button className="link-btn" onClick ={()=>{ navigate("/register")}} >Don't have any Account? Reguister?</button>
         </div>
