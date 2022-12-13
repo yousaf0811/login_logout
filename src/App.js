@@ -13,7 +13,6 @@ import Details from './components/details';
 import Auth from './components/Auth';
 
 import Edit from './components/Edit';
-
 import Lg from './components/Lg';
 
 function App() {
